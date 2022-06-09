@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-// import Hearder from './component/Hearder';
+import Hearder from './component/Hearder';
 import Home from './component/Home';
 
 function App() {
   return (
     <div className="App">
-      {/* <Hearder /> */}
+      <Hearder />
       <Home />
     </div>
   );
